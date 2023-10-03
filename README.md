@@ -46,21 +46,26 @@
     * Once installed, use the command imodinfo to verify that you have downloaded it correctly      
 
 5.  Do Chapters 1, 2, and 9 of Giordano and pass it off [https://docs.google.com/document/d/1rwuWKhjxmHehSVlJTS4vgwJxQZZZxg5z0vF_GyNLXE0/edit?usp=sharing](https://drive.google.com/drive/folders/1fRZ3O7edJSBFz9f5hYGVnzf6_JLeRBmc?usp=sharing)
-6.  Install Anaconda and Python
-   *
-   * 
+   
 
 ## Getting started with MNIST
 Congratulations! You have finished the warmup and setup and are now ready to get started workin with AI. We will start with the MNIST data set.
-1. Setting up PyTorch
-   * Tutorial video: https://www.youtube.com/watch?v=v43SlgBcZ5Y&t=773s
-   * In your terminal write: `conda create --name pytorch2`
-   * Go to https://pytorch.org/get-started/locally/ and install PyTorch according to your OS, copy and paste the command it gives you
-   * Back in your terminal write `conda activate torch`
-   * 
 
+## Setup Github Repo and upstream on your computer
+1. Make sure git is installed: https://git-scm.com/download/mac 
+   * Probably best to do it through homebrew-- install by pasting `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in your terminal
+   * Then paste `brew install git`
+2. Make a directory called Research on your computer. Cd into this directory and run `git clone https://github.com/username/ImageAI.git` replacing username with your github username
+3. Cd into the ImageAI directory and type `git checkout -b upstream` and `git remote -v`
+4. Then, put `git remote add upstream https://github.com/byu-biophysics/ImageAI.git` in your terminal followed by `git remote -v` "origin	https://github.com/jblaser2/ImageAI.git (fetch)
+origin	https://github.com/jblaser2/ImageAI.git (push)
+upstream	https://github.com/byu-biophysics/ImageAI.git (fetch)
+upstream	https://github.com/byu-biophysics/ImageAI.git (push)" should be your output
+5. Then enter `git merge upstream/main` when you ls the examples and useful_scripts directories should appear
+6. 
 
 ## Github
+
 Tutorial videos:
 https://www.youtube.com/watch?v=tRZGeaHPoaw
 https://www.youtube.com/watch?v=8Dd7KRpKeaE&t=988s
