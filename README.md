@@ -46,9 +46,6 @@
     * Once installed, use the command imodinfo to verify that you have downloaded it correctly      
 
 5.  Do Chapters 1, 2, and 9 of Giordano and pass it off [https://docs.google.com/document/d/1rwuWKhjxmHehSVlJTS4vgwJxQZZZxg5z0vF_GyNLXE0/edit?usp=sharing](https://drive.google.com/drive/folders/1fRZ3O7edJSBFz9f5hYGVnzf6_JLeRBmc?usp=sharing)
-6.  Install Anaconda and Python
-   *
-   * 
 
 ## Getting started with MNIST
 Congratulations! You have finished the warmup and setup and are now ready to get started workin with AI. We will start with the MNIST data set.
